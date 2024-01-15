@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KonsolApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c66093cd97ca168350e0e922a233680a2205473d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b390f59674fb7bb731d8dd8f503952c3a9e1b7a8")]
 [assembly: System.Reflection.AssemblyProductAttribute("KonsolApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KonsolApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
