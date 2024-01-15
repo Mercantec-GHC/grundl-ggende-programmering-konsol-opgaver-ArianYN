@@ -102,15 +102,85 @@
 //string projectName = "First-Project";
 //Console.WriteLine($@"C:\Output\{projectName}\Data");
 
-string projectName = "ACME";
-string russianMessage = "\u041f\u043e\u0441\u043c\u043e\u0442\u0440\u0435\u0442\u044c \u0440\u0443\u0441\u0441\u043a\u0438\u0439 \u0432\u044b\u0432\u043e\u0434";
+//string projectName = "ACME";
+//string russianMessage = "\u041f\u043e\u0441\u043c\u043e\u0442\u0440\u0435\u0442\u044c \u0440\u0443\u0441\u0441\u043a\u0438\u0439 \u0432\u044b\u0432\u043e\u0434";
 
-Console.WriteLine($@"View English output:
-    c:\Exercise\{projectName}\data.txt");
+//Console.WriteLine($@"View English output:
+//    c:\Exercise\{projectName}\data.txt");
 
-Console.WriteLine($@"{russianMessage}:
-    c:\Exercise\{projectName}\ru-RU\data.txt");
+//Console.WriteLine($@"{russianMessage}:
+//    c:\Exercise\{projectName}\ru-RU\data.txt");
+////-------------------------------------------------------------
 
+////-------------------------------------------------------------
+// Perform basic operations on numbers
 
+//int firstNumber = 12;
+//int secondNumber = 7;
+//Console.WriteLine(firstNumber + secondNumber);
+
+//string firstName = "Bob";
+//int widgetsSold = 7;
+//Console.WriteLine(firstName + " sold " + widgetsSold + " widgets.");
+//Console.WriteLine(firstName + " sold " + widgetsSold + 7 + " widgets.");
+//Console.WriteLine(firstName + " sold " + (widgetsSold + 7) + " widgets.");
+//Console.WriteLine(" ");
+
+//// Perform basic math operations
+//int sum = 7 + 5;
+//int difference = 7 - 5;
+//int product = 7 * 5;
+//int quotient = 7 / 5;
+
+//Console.WriteLine("Sum: " + sum);
+//Console.WriteLine("Difference: " + difference);
+//Console.WriteLine("Product: " + product);
+//Console.WriteLine("Quotient: " + quotient);
+
+//decimal decimalQuotient = 7.0m / 5;
+//Console.WriteLine($"\nDecimal qoetient: {decimalQuotient}");
+
+// Add code to perform division using literal decimal data
+int first = 7;
+int second = 5;
+decimal quotient = (decimal)first / (decimal)second;
+Console.WriteLine(quotient);
+
+Console.WriteLine($"Modulus of 200 / 5 : {200 % 5}");
+Console.WriteLine($"Modulus of 7 / 5 : {7 % 5}");
+
+int value1 = 3 + 4 * 5;
+int value2 = (3 + 4) * 5;
+Console.WriteLine(value1);
+Console.WriteLine(value2);
+
+//Write code to increment and decrement values
+
+int value = 1;
+
+value = value + 1;
+Console.WriteLine("First increment: " + value);
+
+value += 1;
+Console.WriteLine("Second increment: " + value);
+
+value++;
+Console.WriteLine("Third increment: " + value);
+
+value = value - 1;
+Console.WriteLine("First decrement: " + value);
+
+value -= 1;
+Console.WriteLine("Second decrement: " + value);
+
+value--;
+Console.WriteLine("Third decrement: " + value);
+
+int value3 = 1;
+value3++;
+Console.WriteLine("First: " + value3);
+Console.WriteLine($"Second: {value3++}");
+Console.WriteLine("Third: " + value3);
+Console.WriteLine("Fourth: " + (++value3));
 
 Console.ReadLine();
