@@ -26,3 +26,4 @@ C:\Users\arian\Source\Repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opg
 C:\Users\arian\Source\Repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opgaver-ArianYN\KonsolApp\KonsolApp\obj\Debug\net8.0\KonsolApp.pdb
 C:\Users\arian\Source\Repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opgaver-ArianYN\KonsolApp\KonsolApp\obj\Debug\net8.0\KonsolApp.genruntimeconfig.cache
 C:\Users\arian\Source\Repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opgaver-ArianYN\KonsolApp\KonsolApp\obj\Debug\net8.0\ref\KonsolApp.dll
+C:\Users\arian\Source\Repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opgaver-ArianYN\KonsolApp\KonsolApp\obj\Debug\net8.0\KonsolApp.sourcelink.json
