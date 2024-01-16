@@ -26,8 +26,39 @@
 ////int discount = saleAmount > 1000 ? 100 : 50;
 //Console.WriteLine($"Discount: {(saleAmount > 1000 ? 100 : 50
 
-Random coinflip = new Random();
-int flip = coinflip.Next(0, 2);
-Console.WriteLine(flip == 0 ? "Heads" : "Tails");
+//Random coinflip = new Random();
+//int flip = coinflip.Next(0, 2);
+//Console.WriteLine(flip == 0 ? "Heads" : "Tails");
+
+string permission = "Admin|Manager";
+int level = 55;
+
+if (permission.Contains("Admin"))
+{
+    if (level > 55)
+    {
+        Console.WriteLine("Welcome, Super Admin user.");
+}
+    else 
+    {
+        Console.WriteLine("Welcome, Admin user.");
+    }
+}
+else if (permission.Contains("Manager"))
+{
+    if (level >= 20)
+    {
+        Console.WriteLine("Contact an Admin for access.");
+    }
+    else
+    {
+        Console.WriteLine("You don't have sufficient privileges.");
+    }
+}
+else
+{
+    Console.WriteLine("You don't have sufficient privileges.");
+}
+
 
 Console.ReadLine();
