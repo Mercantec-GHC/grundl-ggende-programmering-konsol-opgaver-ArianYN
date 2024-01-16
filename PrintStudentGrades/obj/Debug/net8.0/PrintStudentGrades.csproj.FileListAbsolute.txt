@@ -1,0 +1,15 @@
+C:\Users\arian\Source\Repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opgaver-ArianYN\PrintStudentGrades\bin\Debug\net8.0\PrintStudentGrades.exe
+C:\Users\arian\Source\Repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opgaver-ArianYN\PrintStudentGrades\bin\Debug\net8.0\PrintStudentGrades.deps.json
+C:\Users\arian\Source\Repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opgaver-ArianYN\PrintStudentGrades\bin\Debug\net8.0\PrintStudentGrades.runtimeconfig.json
+C:\Users\arian\Source\Repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opgaver-ArianYN\PrintStudentGrades\bin\Debug\net8.0\PrintStudentGrades.dll
+C:\Users\arian\Source\Repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opgaver-ArianYN\PrintStudentGrades\bin\Debug\net8.0\PrintStudentGrades.pdb
+C:\Users\arian\Source\Repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opgaver-ArianYN\PrintStudentGrades\obj\Debug\net8.0\PrintStudentGrades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arian\Source\Repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opgaver-ArianYN\PrintStudentGrades\obj\Debug\net8.0\PrintStudentGrades.AssemblyInfoInputs.cache
+C:\Users\arian\Source\Repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opgaver-ArianYN\PrintStudentGrades\obj\Debug\net8.0\PrintStudentGrades.AssemblyInfo.cs
+C:\Users\arian\Source\Repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opgaver-ArianYN\PrintStudentGrades\obj\Debug\net8.0\PrintStudentGrades.csproj.CoreCompileInputs.cache
+C:\Users\arian\Source\Repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opgaver-ArianYN\PrintStudentGrades\obj\Debug\net8.0\PrintStudentGrades.sourcelink.json
+C:\Users\arian\Source\Repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opgaver-ArianYN\PrintStudentGrades\obj\Debug\net8.0\PrintStudentGrades.dll
+C:\Users\arian\Source\Repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opgaver-ArianYN\PrintStudentGrades\obj\Debug\net8.0\refint\PrintStudentGrades.dll
+C:\Users\arian\Source\Repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opgaver-ArianYN\PrintStudentGrades\obj\Debug\net8.0\PrintStudentGrades.pdb
+C:\Users\arian\Source\Repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opgaver-ArianYN\PrintStudentGrades\obj\Debug\net8.0\PrintStudentGrades.genruntimeconfig.cache
+C:\Users\arian\Source\Repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opgaver-ArianYN\PrintStudentGrades\obj\Debug\net8.0\ref\PrintStudentGrades.dll

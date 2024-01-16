@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\KonsolApp"
+    "\\KonsolApp",
+    "\\PrintStudentGrades"
   ],
-  "SelectedNode": "\\KonsolApp\\KonsolApp1",
+  "SelectedNode": "\\PrintStudentGrades\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
