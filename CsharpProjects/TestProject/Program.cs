@@ -149,23 +149,25 @@
 
 // Convert message, convert to char and reverse. Then count and print 'o's
 
-string foxMessage = "The quick brown fox jumps over the lazy dog.";
+// string foxMessage = "The quick brown fox jumps over the lazy dog.";
 
-char[] charMessage = foxMessage.ToCharArray();
-Array.Reverse(charMessage);
+// char[] charMessage = foxMessage.ToCharArray();
+// Array.Reverse(charMessage);
 
-int oLetterCount = 0;
+// int oLetterCount = 0;
 
-foreach (char letter in charMessage) 
-{ 
-    if (letter == 'o') 
-    { 
-    oLetterCount++; 
-    } 
-}
+// foreach (char letter in charMessage) 
+// { 
+//     if (letter == 'o') 
+//     { 
+//     oLetterCount++; 
+//     } 
+// }
 
-string newMessage = new String(charMessage);
+// string newMessage = new String(charMessage);
 
-Console.WriteLine(newMessage);
-Console.WriteLine($"'o' appears {oLetterCount} times.");
+// Console.WriteLine(newMessage);
+// Console.WriteLine($"'o' appears {oLetterCount} times.");
+
+
 

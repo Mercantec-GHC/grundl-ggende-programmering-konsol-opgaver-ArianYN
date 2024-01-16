@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KonsolApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8b28f8a0839a829e7b1c50c8d358eaf8ef4f8c36")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f5af44c4dbea798700db4fb6722a90bf278bc237")]
 [assembly: System.Reflection.AssemblyProductAttribute("KonsolApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KonsolApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
