@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = KonsolApp
-build_property.ProjectDir = C:\Users\arian\Source\Repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opgaver-ArianYN\KonsolApp\KonsolApp\
+build_property.ProjectDir = C:\Users\arian\source\repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opgaver-ArianYN\KonsolApp\KonsolApp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
