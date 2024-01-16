@@ -30,35 +30,65 @@
 //int flip = coinflip.Next(0, 2);
 //Console.WriteLine(flip == 0 ? "Heads" : "Tails");
 
-string permission = "Admin|Manager";
-int level = 55;
+//string permission = "Admin|Manager";
+//int level = 55;
 
-if (permission.Contains("Admin"))
+//if (permission.Contains("Admin"))
+//{
+//    if (level > 55)
+//    {
+//        Console.WriteLine("Welcome, Super Admin user.");
+//}
+//    else 
+//    {
+//        Console.WriteLine("Welcome, Admin user.");
+//    }
+//}
+//else if (permission.Contains("Manager"))
+//{
+//    if (level >= 20)
+//    {
+//        Console.WriteLine("Contact an Admin for access.");
+//    }
+//    else
+//    {
+//        Console.WriteLine("You don't have sufficient privileges.");
+//    }
+//}
+//else
+//{
+//    Console.WriteLine("You don't have sufficient privileges.");
+//}
+
+//string name = "steve";
+//if (name == "bob")
+//    Console.WriteLine("Found Bob");
+
+//else if (name == "steve") '
+//    Console.WriteLine("Found Steve");
+
+//else
+//    Console.WriteLine("Found Chuck");
+
+int[] numbers = { 4, 8, 15, 16, 23, 42 };
+int total = 0;
+bool found = false;
+foreach (int number in numbers)
 {
-    if (level > 55)
+    total += number;
+
+    if (number == 42)
     {
-        Console.WriteLine("Welcome, Super Admin user.");
-}
-    else 
-    {
-        Console.WriteLine("Welcome, Admin user.");
+        found = true;
     }
-}
-else if (permission.Contains("Manager"))
-{
-    if (level >= 20)
-    {
-        Console.WriteLine("Contact an Admin for access.");
-    }
-    else
-    {
-        Console.WriteLine("You don't have sufficient privileges.");
-    }
-}
-else
-{
-    Console.WriteLine("You don't have sufficient privileges.");
 }
 
+if (found)
+{
+    Console.WriteLine("Set contains 42");
+}
+
+Console.WriteLine($"Total: {total}");
 
 Console.ReadLine();
+
