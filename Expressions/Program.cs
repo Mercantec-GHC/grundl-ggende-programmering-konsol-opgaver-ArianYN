@@ -18,8 +18,16 @@
 //Console.WriteLine(pangram.Contains("fox"));
 //Console.WriteLine(pangram.Contains("cow"));
 
-string pangram = "The quick brown fox jumps over the lazy dog.";
-Console.WriteLine(!pangram.Contains("fox"));
-Console.WriteLine(!pangram.Contains("cow"));
+//string pangram = "The quick brown fox jumps over the lazy dog.";
+//Console.WriteLine(!pangram.Contains("fox"));
+//Console.WriteLine(!pangram.Contains("cow"));
+
+//int saleAmount = 1001;
+////int discount = saleAmount > 1000 ? 100 : 50;
+//Console.WriteLine($"Discount: {(saleAmount > 1000 ? 100 : 50
+
+Random coinflip = new Random();
+int flip = coinflip.Next(0, 2);
+Console.WriteLine(flip == 0 ? "Heads" : "Tails");
 
 Console.ReadLine();
