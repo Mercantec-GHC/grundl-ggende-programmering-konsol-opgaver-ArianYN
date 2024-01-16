@@ -1,0 +1,15 @@
+C:\Users\arian\Source\Repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opgaver-ArianYN\Student GPA Calculator\bin\Debug\net8.0\Student GPA Calculator.exe
+C:\Users\arian\Source\Repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opgaver-ArianYN\Student GPA Calculator\bin\Debug\net8.0\Student GPA Calculator.deps.json
+C:\Users\arian\Source\Repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opgaver-ArianYN\Student GPA Calculator\bin\Debug\net8.0\Student GPA Calculator.runtimeconfig.json
+C:\Users\arian\Source\Repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opgaver-ArianYN\Student GPA Calculator\bin\Debug\net8.0\Student GPA Calculator.dll
+C:\Users\arian\Source\Repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opgaver-ArianYN\Student GPA Calculator\bin\Debug\net8.0\Student GPA Calculator.pdb
+C:\Users\arian\Source\Repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opgaver-ArianYN\Student GPA Calculator\obj\Debug\net8.0\Student GPA Calculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arian\Source\Repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opgaver-ArianYN\Student GPA Calculator\obj\Debug\net8.0\Student GPA Calculator.AssemblyInfoInputs.cache
+C:\Users\arian\Source\Repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opgaver-ArianYN\Student GPA Calculator\obj\Debug\net8.0\Student GPA Calculator.AssemblyInfo.cs
+C:\Users\arian\Source\Repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opgaver-ArianYN\Student GPA Calculator\obj\Debug\net8.0\Student GPA Calculator.csproj.CoreCompileInputs.cache
+C:\Users\arian\Source\Repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opgaver-ArianYN\Student GPA Calculator\obj\Debug\net8.0\Student GPA Calculator.sourcelink.json
+C:\Users\arian\Source\Repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opgaver-ArianYN\Student GPA Calculator\obj\Debug\net8.0\Student GPA Calculator.dll
+C:\Users\arian\Source\Repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opgaver-ArianYN\Student GPA Calculator\obj\Debug\net8.0\refint\Student GPA Calculator.dll
+C:\Users\arian\Source\Repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opgaver-ArianYN\Student GPA Calculator\obj\Debug\net8.0\Student GPA Calculator.pdb
+C:\Users\arian\Source\Repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opgaver-ArianYN\Student GPA Calculator\obj\Debug\net8.0\Student GPA Calculator.genruntimeconfig.cache
+C:\Users\arian\Source\Repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opgaver-ArianYN\Student GPA Calculator\obj\Debug\net8.0\ref\Student GPA Calculator.dll

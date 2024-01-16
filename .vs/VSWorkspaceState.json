@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\KonsolApp",
-    "\\PrintStudentGrades"
+    "\\PrintStudentGrades",
+    "\\Student GPA Calculator"
   ],
-  "SelectedNode": "\\PrintStudentGrades\\Program.cs",
+  "SelectedNode": "\\Student GPA Calculator\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
