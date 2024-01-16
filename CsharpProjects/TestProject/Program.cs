@@ -1,5 +1,5 @@
 ﻿// using System;
-Random dice = new Random();
+//Random dice = new Random();
 // int roll = dice.Next(1, 7);
 // Console.WriteLine(roll);
 
@@ -137,16 +137,35 @@ Random dice = new Random();
 // }
 // Console.WriteLine($"We have {sum} items in inventory");
 
-string[] fraudulentOrderIDs = {"B123", "C234", "A345", "C15", "B177", "G3003", "C235", "B179"};
+// string[] fraudulentOrderIDs = {"B123", "C234", "A345", "C15", "B177", "G3003", "C235", "B179"};
 
-foreach (string fraudID in fraudulentOrderIDs)
-{
-    if (fraudID.StartsWith("B"))
-    {
-        Console.WriteLine(fraudID);
-    }
+// foreach (string fraudID in fraudulentOrderIDs)
+// {
+//     if (fraudID.StartsWith("B"))
+//     {
+//         Console.WriteLine(fraudID);
+//     }
+// }
+
+// Convert message, convert to char and reverse. Then count and print 'o's
+
+string foxMessage = "The quick brown fox jumps over the lazy dog.";
+
+char[] charMessage = foxMessage.ToCharArray();
+Array.Reverse(charMessage);
+
+int oLetterCount = 0;
+
+foreach (char letter in charMessage) 
+{ 
+    if (letter == 'o') 
+    { 
+    oLetterCount++; 
+    } 
 }
 
+string newMessage = new String(charMessage);
 
-
+Console.WriteLine(newMessage);
+Console.WriteLine($"'o' appears {oLetterCount} times.");
 
