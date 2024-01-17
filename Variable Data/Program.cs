@@ -26,40 +26,6 @@
 //int result = first + second;
 //Console.WriteLine(result);
 
-//int myInt = 3;
-//Console.WriteLine($"int: {myInt}");
-
-//decimal myDecimal = myInt;
-//Console.WriteLine($"decimal: {myDecimal}");
-
-//decimal myDecimal = 3.14m;
-//Console.WriteLine($"decimal: {myDecimal}");
-
-//int myInt = (int)myDecimal;
-//Console.WriteLine($"int: {myInt}");
-
-//decimal myDecimal = 1.23456789m;
-//float myFloat = (float)myDecimal;
-
-//Console.WriteLine($"Decimal: {myDecimal}");
-//Console.WriteLine($"Float  : {myFloat}");
-
-//int first = 5;
-//int second = 7;
-//string message = first.ToString() + second.ToString();
-//Console.WriteLine(message);
-
-//string first = "5";
-//string second = "7";
-//int sum = int.Parse(first) + int.Parse(second);
-//Console.WriteLine(sum);
-
-//int value = (int)1.5m;
-//Console.WriteLine(value);
-
-//int value2 = Convert.ToInt32(1.5m); 
-//Console.WriteLine(value2);
-
 //string value = "value";
 //int result = 0;
 //if (int.TryParse(value, out result))
@@ -94,18 +60,49 @@
 //Console.WriteLine($"Message: {message}");
 //Console.WriteLine($"Total: {number}");
 
-int value1 = 12;
-decimal value2 = 6.2m;
-float value3 = 4.3f;
+//int value1 = 12;
+//decimal value2 = 6.2m;
+//float value3 = 4.3f;
 
-int result1 = value1 / (int)value2;
-Console.WriteLine($"Divide value1 by value2, display the result as an int: {result1}");
+//int result1 = value1 / (int)value2;
+//Console.WriteLine($"Divide value1 by value2, display the result as an int: {result1}");
 
-decimal result2 = value2 / (decimal)value3;
-Console.WriteLine($"Divide value2 by value3, display the result as a decimal: {result2}");
+//decimal result2 = value2 / (decimal)value3;
+//Console.WriteLine($"Divide value2 by value3, display the result as a decimal: {result2}");
 
-float result3 = value3 / value1;
-Console.WriteLine($"Divide value3 by value1, display the result as a float: {result3}");
+//float result3 = value3 / value1;
+//Console.WriteLine($"Divide value3 by value1, display the result as a float: {result3}");
+
+string[] pallets = { "B14", "A11", "B12", "A13" };
+Console.WriteLine("");
+
+Array.Clear(pallets, 0, 2);
+Console.WriteLine($"Clearing 2 ... count: {pallets.Length}");
+foreach (var pallet in pallets)
+{
+    Console.WriteLine($"-- {pallet}");
+}
+
+Console.WriteLine("");
+Array.Resize(ref pallets, 6);
+Console.WriteLine($"Resizing 6 ... count: {pallets.Length}");
+
+pallets[4] = "C01";
+pallets[5] = "C02";
+
+foreach (var pallet in pallets)
+{
+    Console.WriteLine($"-- {pallet}");
+}
+
+Console.WriteLine("");
+Array.Resize(ref pallets, 3);
+Console.WriteLine($"Resizing 3 ... count: {pallets.Length}");
+
+foreach (var pallet in pallets)
+{
+    Console.WriteLine($"-- {pallet}");
+}
 
 
 Console.ReadLine();
