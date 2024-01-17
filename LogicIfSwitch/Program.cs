@@ -102,40 +102,107 @@
 //Console.WriteLine($"Last number: {current}");
 
 
-int heroHealth = 10;
-int enemyHealth = 10;
+//int heroHealth = 10;
+//int enemyHealth = 10;
+
+//do
+//{
+//    Random diceRoll = new Random();
+//    int roll = diceRoll.Next(1, 11);
+//    enemyHealth -= roll;
+
+//    if (enemyHealth < 0)
+//    {
+//        enemyHealth = 0;
+//    }
+
+//    Console.WriteLine($"Monster was damaged and lost {roll} health and now has {enemyHealth} health.");
+
+//    if (enemyHealth <= 0)
+//    {
+//        continue;
+//    }
+
+//    roll = diceRoll.Next(1, 11);
+//    heroHealth -= roll;
+
+//    if (heroHealth < 0)
+//    {
+//        heroHealth = 0;
+//    }
+
+//    Console.WriteLine($"Hero was damaged and lost {roll} health and now has {heroHealth} health.");
+
+//} while (heroHealth > 0 && enemyHealth > 0);
+
+//Console.WriteLine(heroHealth > enemyHealth ? "The Hero has won" : "The monster has won!");
+
+Console.WriteLine("Input an integer between 5 and 10:");
+string integerInput;
+bool validnumber = false;
+int inputNumber;
 
 do
 {
-    Random diceRoll = new Random();
-    int roll = diceRoll.Next(1, 11);
-    enemyHealth -= roll;
+    integerInput = Console.ReadLine();
+    validnumber = int.TryParse(integerInput, out inputNumber);
 
-    if (enemyHealth < 0)
+    if (inputNumber > 10 || inputNumber < 5)
     {
-        enemyHealth = 0;
-    }
-
-    Console.WriteLine($"Monster was damaged and lost {roll} health and now has {enemyHealth} health.");
-
-    if (enemyHealth <= 0)
-    {
+        Console.WriteLine("Please input a valid integer:");
         continue;
     }
+    
+} while (inputNumber > 10 || inputNumber < 5);
 
-    roll = diceRoll.Next(1, 11);
-    heroHealth -= roll;
+Console.WriteLine($"Your input of '{inputNumber}' has been accepted!");
 
-    if (heroHealth < 0)
+//------------------------------------------------------------------------
+
+Console.WriteLine("\nInput your role: (Administrator, Manager, User)");
+string roleInput = "";
+string formattedInput = "";
+string chosenRole = "";
+do
+{
+    if (chosenRole == "notValid")
     {
-        heroHealth = 0;
+        Console.WriteLine("Please input a valid role:");
     }
+    roleInput = Console.ReadLine();
+    formattedInput = roleInput.Trim().ToLower();
+    switch (formattedInput)
+    {
+        case "administrator":
+            chosenRole = "Administrator";
+            break;
+        case "manager":
+            chosenRole = "Manager";
+            break;
+        case "user":
+            chosenRole = "User";
+            break;
+        default:
+            chosenRole = "notValid";
+            break;
+    }
+} while (chosenRole == "notValid");
 
-    Console.WriteLine($"Hero was damaged and lost {roll} health and now has {heroHealth} health.");
+Console.WriteLine($"Your role of {chosenRole} has been accepted!\n");
 
-} while (heroHealth > 0 && enemyHealth > 0);
+//-------------------------------------------------------------------------
 
-Console.WriteLine(heroHealth > enemyHealth ? "The Hero has won" : "The monster has won!");
+string[] myStrings = new string[2] { "I like pizza. I like roast chicken. I like salad", "I like all three of the menu choices" };
+
+foreach (string myString in myStrings)
+{
+    string[] mySentences = myString.Split('.');
+    foreach (string mySentence in mySentences)
+    {
+        Console.WriteLine(mySentence.Trim());
+    }
+}
+
 
 Console.ReadLine();
 
