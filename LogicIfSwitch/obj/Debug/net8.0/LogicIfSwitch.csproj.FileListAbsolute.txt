@@ -1,0 +1,15 @@
+C:\Users\arian\Source\Repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opgaver-ArianYN\LogicIfSwitch\bin\Debug\net8.0\LogicIfSwitch.exe
+C:\Users\arian\Source\Repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opgaver-ArianYN\LogicIfSwitch\bin\Debug\net8.0\LogicIfSwitch.deps.json
+C:\Users\arian\Source\Repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opgaver-ArianYN\LogicIfSwitch\bin\Debug\net8.0\LogicIfSwitch.runtimeconfig.json
+C:\Users\arian\Source\Repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opgaver-ArianYN\LogicIfSwitch\bin\Debug\net8.0\LogicIfSwitch.dll
+C:\Users\arian\Source\Repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opgaver-ArianYN\LogicIfSwitch\bin\Debug\net8.0\LogicIfSwitch.pdb
+C:\Users\arian\Source\Repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opgaver-ArianYN\LogicIfSwitch\obj\Debug\net8.0\LogicIfSwitch.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arian\Source\Repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opgaver-ArianYN\LogicIfSwitch\obj\Debug\net8.0\LogicIfSwitch.AssemblyInfoInputs.cache
+C:\Users\arian\Source\Repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opgaver-ArianYN\LogicIfSwitch\obj\Debug\net8.0\LogicIfSwitch.AssemblyInfo.cs
+C:\Users\arian\Source\Repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opgaver-ArianYN\LogicIfSwitch\obj\Debug\net8.0\LogicIfSwitch.csproj.CoreCompileInputs.cache
+C:\Users\arian\Source\Repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opgaver-ArianYN\LogicIfSwitch\obj\Debug\net8.0\LogicIfSwitch.sourcelink.json
+C:\Users\arian\Source\Repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opgaver-ArianYN\LogicIfSwitch\obj\Debug\net8.0\LogicIfSwitch.dll
+C:\Users\arian\Source\Repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opgaver-ArianYN\LogicIfSwitch\obj\Debug\net8.0\refint\LogicIfSwitch.dll
+C:\Users\arian\Source\Repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opgaver-ArianYN\LogicIfSwitch\obj\Debug\net8.0\LogicIfSwitch.pdb
+C:\Users\arian\Source\Repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opgaver-ArianYN\LogicIfSwitch\obj\Debug\net8.0\LogicIfSwitch.genruntimeconfig.cache
+C:\Users\arian\Source\Repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opgaver-ArianYN\LogicIfSwitch\obj\Debug\net8.0\ref\LogicIfSwitch.dll
