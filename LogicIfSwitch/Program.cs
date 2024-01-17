@@ -57,20 +57,49 @@
 
 // Iterate through code block using for statement in C#
 
-for (int i = 1; i < 100; i++)
-{
-    string keyword = "";
-    if (i % 3 == 0)
-    {
-        keyword += "Fizz";
-    }
-    if (i % 5 == 0)
-    {
-        keyword += "Buzz";
-    }
+//for (int i = 1; i < 100; i++)
+//{
+//    string keyword = "";
+//    if (i % 3 == 0)
+//    {
+//        keyword += "Fizz";
+//    }
+//    if (i % 5 == 0)
+//    {
+//        keyword += "Buzz";
+//    }
 
-    Console.WriteLine($"{i} {keyword}");
-}
+//    Console.WriteLine($"{i} {keyword}");
+//}
+
+// Add looping logic using do-while and while statements in C#
+
+Random random = new Random();
+int current = random.Next(1, 11);
+
+do
+{
+    current = random.Next(1, 11);
+
+    if (current >= 8) continue;
+
+    Console.WriteLine(current);
+} while (current != 7);
+
+
+//do
+//{
+//    current = random.Next(1, 11);
+//    Console.WriteLine(current);
+//} while (current != 7);
+
+//while (current >= 3)
+//{
+//    Console.WriteLine(current);
+//    current = random.Next(1, 11);
+//}
+
+//Console.WriteLine($"Last number: {current}");
 
 Console.ReadLine();
 
