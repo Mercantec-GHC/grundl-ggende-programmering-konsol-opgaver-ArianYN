@@ -189,11 +189,38 @@
 //    message = message.Substring(closingPosition + 1);
 
 
-//I didn't type the last thing.
+//I did not do this all by myself. I did use the solution to help me in some places
 
-string message = "This--is--ex-amp-le--da-ta";
-message = message.Replace("--", " ");
-message = message.Replace("-", "");
-Console.WriteLine(message);
+const string input = "<div><h2>Widgets &trade;</h2><span>5000</span></div>";
+
+string quantity = "";
+string output = "";
+
+const string openSpan = "<span>";
+const string closeSpan = "</span>";
+
+int quantStart = input.IndexOf(openSpan) + openSpan.Length; 
+
+int quantEnd = input.IndexOf(closeSpan);
+
+int quantLength = quantEnd - quantStart;
+
+quantity = input.Substring(quantStart, quantLength);
+quantity = $"Quantity: {quantity}";
+
+const string trade = "&trade;";
+const string reg = "&reg;";
+output = input.Replace(trade, reg);
+
+const string openDiv = "<div>";
+int divStart = output.IndexOf(openDiv);
+output = output.Remove(divStart, openDiv.Length);
+
+const string closeDiv = "</div>";
+int divCloseStart = output.IndexOf(closeDiv);
+output = "Output: " + output.Remove(divCloseStart, closeDiv.Length);
+
+Console.WriteLine(quantity);
+Console.WriteLine(output);
 
 Console.ReadLine();
