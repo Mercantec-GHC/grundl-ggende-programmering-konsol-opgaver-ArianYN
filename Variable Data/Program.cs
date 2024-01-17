@@ -86,20 +86,38 @@
 //    Console.WriteLine(item);
 //}
 
-string pangram = "The quick brown fox jumps over the lazy dog";
+//string pangram = "The quick brown fox jumps over the lazy dog";
 
-string[] noSpaceMessages = pangram.Split(' ');
+//string[] noSpaceMessages = pangram.Split(' ');
 
-string[] reversedWordMessage = new string[noSpaceMessages.Length];
+//string[] reversedWordMessage = new string[noSpaceMessages.Length];
 
-for (int i = 0; i < noSpaceMessages.Length; i++)
+//for (int i = 0; i < noSpaceMessages.Length; i++)
+//{
+//    char[] word = noSpaceMessages[i].ToCharArray();
+//    Array.Reverse(word);
+//    reversedWordMessage[i] = new string(word);
+//}
+
+//string finalResult = string.Join(" ", reversedWordMessage);
+//Console.WriteLine(finalResult);
+
+string orderStream = "B123,C234,A345,C15,B177,G3003,C235,B179";
+string[] orderIDs = orderStream.Split(',');
+Array.Sort(orderIDs);
+
+foreach (string order in orderIDs)
 {
-    char[] word = noSpaceMessages[i].ToCharArray();
-    Array.Reverse(word);
-    reversedWordMessage[i] = new string(word);
+    if (order.Length == 4)
+    {
+        Console.WriteLine(order);
+    }
+    else
+    {
+        Console.WriteLine(order + "\t- Error.");
+    }
 }
 
-string finalResult = string.Join(" ", reversedWordMessage);
-Console.WriteLine(finalResult);
+
 
 Console.ReadLine();
