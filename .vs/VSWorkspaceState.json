@@ -1,13 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Challenge-project-foreach-if-array-CSharp-main",
-    "\\Challenge-project-foreach-if-array-CSharp-main\\ChallengeProject",
     "\\Challenge-project-foreach-if-array-CSharp-main\\ChallengeProject\\Starter",
-    "\\Contoso Pets Application",
-    "\\Expressions",
-    "\\LogicIfSwitch"
+    "\\Variable Data"
   ],
-  "SelectedNode": "\\Contoso Pets Application\\Program.cs",
+  "SelectedNode": "\\Variable Data\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
