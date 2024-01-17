@@ -74,17 +74,17 @@
 
 // Add looping logic using do-while and while statements in C#
 
-Random random = new Random();
-int current = random.Next(1, 11);
+//Random random = new Random();
+//int current = random.Next(1, 11);
 
-do
-{
-    current = random.Next(1, 11);
+//do
+//{
+//    current = random.Next(1, 11);
 
-    if (current >= 8) continue;
+//    if (current >= 8) continue;
 
-    Console.WriteLine(current);
-} while (current != 7);
+//    Console.WriteLine(current);
+//} while (current != 7);
 
 
 //do
@@ -100,6 +100,42 @@ do
 //}
 
 //Console.WriteLine($"Last number: {current}");
+
+
+int heroHealth = 10;
+int enemyHealth = 10;
+
+do
+{
+    Random diceRoll = new Random();
+    int roll = diceRoll.Next(1, 11);
+    enemyHealth -= roll;
+
+    if (enemyHealth < 0)
+    {
+        enemyHealth = 0;
+    }
+
+    Console.WriteLine($"Monster was damaged and lost {roll} health and now has {enemyHealth} health.");
+
+    if (enemyHealth <= 0)
+    {
+        continue;
+    }
+
+    roll = diceRoll.Next(1, 11);
+    heroHealth -= roll;
+
+    if (heroHealth < 0)
+    {
+        heroHealth = 0;
+    }
+
+    Console.WriteLine($"Hero was damaged and lost {roll} health and now has {heroHealth} health.");
+
+} while (heroHealth > 0 && enemyHealth > 0);
+
+Console.WriteLine(heroHealth > enemyHealth ? "The Hero has won" : "The monster has won!");
 
 Console.ReadLine();
 

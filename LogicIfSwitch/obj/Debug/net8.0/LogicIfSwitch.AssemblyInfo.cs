@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LogicIfSwitch")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+355d9826986dd1f7308357f185ba61d1a11cd834")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c97044bc95e0113f7f3e94af4d84e7e350f973e5")]
 [assembly: System.Reflection.AssemblyProductAttribute("LogicIfSwitch")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LogicIfSwitch")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
