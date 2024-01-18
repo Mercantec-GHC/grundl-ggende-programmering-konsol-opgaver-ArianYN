@@ -119,54 +119,97 @@ else ipAddress is invalid
 //    }
 //}
 
-string[] guestList = { "Rebecca", "Nadia", "Noor", "Jonte" };
-string[] rsvps = new string[10];
-int count = 0;
+//string[] guestList = { "Rebecca", "Nadia", "Noor", "Jonte" };
+//string[] rsvps = new string[10];
+//int count = 0;
 
-RSVP("Rebecca", 1, "none", true);
-RSVP("Nadia", 2, "Nuts", true);
-RSVP("Linh", 2, "none", false);
-RSVP("Tony", 1, "Jackfruit", true);
-RSVP("Noor", 4, "none", false);
-RSVP("Jonte", 2, "Stone fruit", false);
-ShowRSVPs();
+//RSVP("Rebecca", 1, "none", true);
+//RSVP("Nadia", 2, "Nuts", true);
+//RSVP("Linh", 2, "none", false);
+//RSVP("Tony", 1, "Jackfruit", true);
+//RSVP("Noor", 4, "none", false);
+//RSVP("Jonte", 2, "Stone fruit", false);
+//ShowRSVPs();
 
-void RSVP(string name, int partySize, string allergies, bool inviteOnly)
+//void RSVP(string name, int partySize, string allergies, bool inviteOnly)
+//{
+//    if (inviteOnly)
+//    {
+//        // search guestList before adding rsvp
+//    }
+
+//    rsvps[count] = $"Name: {name}, \tParty Size: {partySize}, \tAllergies: {allergies}";
+//    count++;
+
+//    if (inviteOnly)
+//    {
+//        bool found = false;
+//        foreach (string guest in guestList)
+//        {
+//            if (guest.Equals(name))
+//            {
+//                found = true;
+//                break;
+//            }
+//        }
+//        if (!found)
+//        {
+//            Console.WriteLine($"Sorry, {name} is not on the guest list");
+//            return;
+//        }
+//    }
+//}
+
+//void ShowRSVPs()
+//{
+//    Console.WriteLine("\nTotal RSVPs:");
+//    for (int i = 0; i < count; i++)
+//    {
+//        Console.WriteLine(rsvps[i]);
+//    }
+//}
+
+string[,] corporate =
 {
-    if (inviteOnly)
-    {
-        // search guestList before adding rsvp
-    }
+    {"Robert", "Bavin"}, {"Simon", "Bright"},
+    {"Kim", "Sinclair"}, {"Aashrita", "Kamath"},
+    {"Sarah", "Delucchi"}, {"Sinan", "Ali"}
+};
 
-    rsvps[count] = $"Name: {name}, \tParty Size: {partySize}, \tAllergies: {allergies}";
-    count++;
+string[,] external =
+{
+    {"Vinnie", "Ashton"}, {"Cody", "Dysart"},
+    {"Shay", "Lawrence"}, {"Daren", "Valdes"}
+};
 
-    if (inviteOnly)
+string externalDomain = "hayworth.com";
+string internalDomain = "contoso.com";
+
+for (int i = 0; i < corporate.GetLength(0); i++)
+{
+    DisplayEmail("corporate", corporate[i,0], corporate[i,1]);
+}
+
+for (int i = 0; i < external.GetLength(0); i++)
+{
+    DisplayEmail("external", external[i,0], external[i,1]);
+}
+
+void DisplayEmail(string extOrCorp, string firstName, string lastName)
+{
+    string email = firstName.Substring(0, 2) + lastName;
+    email = email.ToLower();
+
+    switch (extOrCorp)
     {
-        bool found = false;
-        foreach (string guest in guestList)
-        {
-            if (guest.Equals(name))
-            {
-                found = true;
-                break;
-            }
-        }
-        if (!found)
-        {
-            Console.WriteLine($"Sorry, {name} is not on the guest list");
-            return;
-        }
+        case "corporate":
+            Console.WriteLine($"{email}@{internalDomain}");
+            break;
+        case "external":
+            Console.WriteLine($"{email}@{externalDomain}");
+            break;
     }
 }
 
-void ShowRSVPs()
-{
-    Console.WriteLine("\nTotal RSVPs:");
-    for (int i = 0; i < count; i++)
-    {
-        Console.WriteLine(rsvps[i]);
-    }
-}
 
 Console.ReadLine();
