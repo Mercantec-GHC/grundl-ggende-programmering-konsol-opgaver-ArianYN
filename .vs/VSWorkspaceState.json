@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Contoso Pets Application"
+    "\\Contoso Pets Application",
+    "\\Methods"
   ],
-  "SelectedNode": "\\Contoso Pets Application\\Program.cs",
+  "SelectedNode": "\\Methods\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
