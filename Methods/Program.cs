@@ -259,37 +259,165 @@ else ipAddress is invalid
 //    return vnd / rate;
 //}
 
-string ReverseWord(string word)
+//string ReverseWord(string word)
+//{
+//    string result = "";
+//    for (int i = word.Length - 1; i >= 0; i--)
+//    {
+//        result += word[i];
+//    }
+//    return result;
+//}
+
+//string input = "snake";
+
+//Console.WriteLine(input);
+//Console.WriteLine(ReverseWord(input));
+
+//string ReverseSentence(string input)
+//{
+//    string result = "";
+//    string[] words = input.Split(" ");
+
+//    foreach (string word in words)
+//    {
+//        result += ReverseWord(word) + " ";
+//    }
+
+//    return result.Trim();
+//}
+
+//string input1 = "there are snakes at the zoo";
+
+//Console.WriteLine(input1);
+//Console.WriteLine(ReverseSentence(input1));
+
+//string[] words = { "racecar", "talented", "deified", "tent", "tenet" };
+
+//Console.WriteLine("Is it a palindrome?");
+//foreach (string word in words)
+//{
+//    Console.WriteLine($"{word}: {IsPalindrome(word)}");
+//}
+
+//bool IsPalindrome(string word)
+//{
+//    int start = 0;
+//    int end = word.Length - 1;
+
+//    while (start < end)
+//    {
+//        if (word[start] != word[end])
+//        {
+//            return false;
+//        }
+//        start++;
+//        end--;
+//    }
+
+//    return true;
+//}
+
+//int target = 30;
+//int[] coins = new int[] { 5, 5, 50, 25, 25, 10, 5 };
+//int[,] result = TwoCoins(coins, target);
+
+//if (result.Length == 0)
+//{
+//    Console.WriteLine("No two coins make change");
+//}
+//else
+//{
+//    Console.WriteLine("Change found at positions:");
+//    for (int i = 0; i < result.GetLength(0); i++)
+//    {
+//        if (result[i, 0] == -1)
+//        {
+//            break;
+//        }
+//        Console.WriteLine($"{result[i, 0]},{result[i, 1]}");
+//    }
+//}
+
+//int[,] TwoCoins(int[] coins, int target)
+//{
+//    int[,] result = { { -1, -1 }, { -1, -1 }, { -1, -1 }, { -1, -1 }, { -1, -1 } };
+//    int count = 0;
+
+//    for (int curr = 0; curr < coins.Length; curr++)
+//    {
+//        for (int next = curr + 1; next < coins.Length; next++)
+//        {
+//            if (coins[curr] + coins[next] == target)
+//            {
+//                result[count, 0] = curr;
+//                result[count, 1] = next;
+//                count++;
+//            }
+//            if (count == result.GetLength(0))
+//            {
+//                return result;
+//            }
+//        }
+//    }
+//    return (count == 0) ? new int[0, 0] : result;
+//}
+using System.Reflection.Metadata.Ecma335;
+using System.Runtime;
+
+Random random = new Random();
+
+Console.WriteLine("Would you like to play? (Y/N)");
+if (ShouldPlay())
 {
-    string result = "";
-    for (int i = word.Length - 1; i >= 0; i--)
-    {
-        result += word[i];
-    }
-    return result;
+    PlayGame();
 }
 
-string input = "snake";
-
-Console.WriteLine(input);
-Console.WriteLine(ReverseWord(input));
-
-string ReverseSentence(string input)
+void PlayGame()
 {
-    string result = "";
-    string[] words = input.Split(" ");
+    var play = true;
 
-    foreach (string word in words)
+    while (play)
     {
-        result += ReverseWord(word) + " ";
-    }
+        var target = random.Next(1, 5);
+        var roll = random.Next(1, 6);
 
-    return result.Trim();
+        Console.WriteLine($"Roll a number greater than {target} to win!");
+        Console.WriteLine($"You rolled a {roll}");
+        Console.WriteLine(WinOrLose(roll, target));
+        Console.WriteLine("\nPlay again? (Y/N)");
+
+        play = ShouldPlay();
+    }
 }
 
-string input1 = "there are snakes at the zoo";
+bool ShouldPlay()
+{
+    string userInput = Console.ReadLine();
+    userInput = userInput.Trim().ToLower();
 
-Console.WriteLine(input1);
-Console.WriteLine(ReverseSentence(input1));
+    if (userInput == "y")
+    {
+        return true;
+    } 
+    else
+    {
+        return false;
+    } 
+}
 
+string WinOrLose(int roll, int target)
+{
+    switch (roll.CompareTo(target))
+    {
+        case 1:
+            return "Congratulations! You won.";
+        case 0:
+            return "You tied!";
+        case -1:
+            return "Game over. You lost!";
+        default:
+            return "Something went wrong";
+    }
+}
 Console.ReadLine();
