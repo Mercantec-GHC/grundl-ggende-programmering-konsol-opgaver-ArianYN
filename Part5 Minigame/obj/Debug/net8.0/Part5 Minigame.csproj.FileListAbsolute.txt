@@ -1,0 +1,15 @@
+C:\Users\arian\Source\Repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opgaver-ArianYN\Part5 Minigame\bin\Debug\net8.0\Part5 Minigame.exe
+C:\Users\arian\Source\Repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opgaver-ArianYN\Part5 Minigame\bin\Debug\net8.0\Part5 Minigame.deps.json
+C:\Users\arian\Source\Repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opgaver-ArianYN\Part5 Minigame\bin\Debug\net8.0\Part5 Minigame.runtimeconfig.json
+C:\Users\arian\Source\Repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opgaver-ArianYN\Part5 Minigame\bin\Debug\net8.0\Part5 Minigame.dll
+C:\Users\arian\Source\Repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opgaver-ArianYN\Part5 Minigame\bin\Debug\net8.0\Part5 Minigame.pdb
+C:\Users\arian\Source\Repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opgaver-ArianYN\Part5 Minigame\obj\Debug\net8.0\Part5 Minigame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arian\Source\Repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opgaver-ArianYN\Part5 Minigame\obj\Debug\net8.0\Part5 Minigame.AssemblyInfoInputs.cache
+C:\Users\arian\Source\Repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opgaver-ArianYN\Part5 Minigame\obj\Debug\net8.0\Part5 Minigame.AssemblyInfo.cs
+C:\Users\arian\Source\Repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opgaver-ArianYN\Part5 Minigame\obj\Debug\net8.0\Part5 Minigame.csproj.CoreCompileInputs.cache
+C:\Users\arian\Source\Repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opgaver-ArianYN\Part5 Minigame\obj\Debug\net8.0\Part5 Minigame.sourcelink.json
+C:\Users\arian\Source\Repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opgaver-ArianYN\Part5 Minigame\obj\Debug\net8.0\Part5 Minigame.dll
+C:\Users\arian\Source\Repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opgaver-ArianYN\Part5 Minigame\obj\Debug\net8.0\refint\Part5 Minigame.dll
+C:\Users\arian\Source\Repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opgaver-ArianYN\Part5 Minigame\obj\Debug\net8.0\Part5 Minigame.pdb
+C:\Users\arian\Source\Repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opgaver-ArianYN\Part5 Minigame\obj\Debug\net8.0\Part5 Minigame.genruntimeconfig.cache
+C:\Users\arian\Source\Repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opgaver-ArianYN\Part5 Minigame\obj\Debug\net8.0\ref\Part5 Minigame.dll
