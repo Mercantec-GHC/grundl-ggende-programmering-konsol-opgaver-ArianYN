@@ -1,0 +1,15 @@
+C:\Users\arian\Source\Repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opgaver-ArianYN\Methods Guided Project\bin\Debug\net8.0\Methods Guided Project.exe
+C:\Users\arian\Source\Repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opgaver-ArianYN\Methods Guided Project\bin\Debug\net8.0\Methods Guided Project.deps.json
+C:\Users\arian\Source\Repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opgaver-ArianYN\Methods Guided Project\bin\Debug\net8.0\Methods Guided Project.runtimeconfig.json
+C:\Users\arian\Source\Repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opgaver-ArianYN\Methods Guided Project\bin\Debug\net8.0\Methods Guided Project.dll
+C:\Users\arian\Source\Repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opgaver-ArianYN\Methods Guided Project\bin\Debug\net8.0\Methods Guided Project.pdb
+C:\Users\arian\Source\Repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opgaver-ArianYN\Methods Guided Project\obj\Debug\net8.0\Methods Guided Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arian\Source\Repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opgaver-ArianYN\Methods Guided Project\obj\Debug\net8.0\Methods Guided Project.AssemblyInfoInputs.cache
+C:\Users\arian\Source\Repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opgaver-ArianYN\Methods Guided Project\obj\Debug\net8.0\Methods Guided Project.AssemblyInfo.cs
+C:\Users\arian\Source\Repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opgaver-ArianYN\Methods Guided Project\obj\Debug\net8.0\Methods Guided Project.csproj.CoreCompileInputs.cache
+C:\Users\arian\Source\Repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opgaver-ArianYN\Methods Guided Project\obj\Debug\net8.0\Methods Guided Project.sourcelink.json
+C:\Users\arian\Source\Repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opgaver-ArianYN\Methods Guided Project\obj\Debug\net8.0\Methods Guided Project.dll
+C:\Users\arian\Source\Repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opgaver-ArianYN\Methods Guided Project\obj\Debug\net8.0\refint\Methods Guided Project.dll
+C:\Users\arian\Source\Repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opgaver-ArianYN\Methods Guided Project\obj\Debug\net8.0\Methods Guided Project.pdb
+C:\Users\arian\Source\Repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opgaver-ArianYN\Methods Guided Project\obj\Debug\net8.0\Methods Guided Project.genruntimeconfig.cache
+C:\Users\arian\Source\Repos\Mercantec-GHC\grundl-ggende-programmering-konsol-opgaver-ArianYN\Methods Guided Project\obj\Debug\net8.0\ref\Methods Guided Project.dll
