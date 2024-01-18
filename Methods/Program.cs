@@ -1,92 +1,4 @@
-﻿//Console.WriteLine("Generating random numbers:");
-//DisplayRandomNumber();
-
-
-
-//void DisplayRandomNumber()
-//{
-//    Random random = new Random();
-
-//    for (int i = 0; i < 5; i++)
-//    {
-//        Console.WriteLine($"{random.Next(1, 100)}");
-//    }
-//    Console.WriteLine();
-//}
-
-//int[] times = { 800, 1200, 1600, 2000 };
-//int diff = 0;
-
-//Console.WriteLine("Enter current GMT");
-//int currentGMT = Convert.ToInt32(Console.ReadLine());
-
-//Console.WriteLine("Current Medicine Schedule:");
-
-///* Format and display medicine times */
-//DisplayTimes();
-
-//Console.WriteLine();
-
-//Console.WriteLine("Enter new GMT");
-//int newGMT = Convert.ToInt32(Console.ReadLine());
-
-//if (Math.Abs(newGMT) > 12 || Math.Abs(currentGMT) > 12)
-//{
-//    Console.WriteLine("Invalid GMT");
-//}
-//else if (newGMT <= 0 && currentGMT <= 0 || newGMT >= 0 && currentGMT >= 0)
-//{
-//    diff = 100 * (Math.Abs(newGMT) - Math.Abs(currentGMT));
-//    AdjustTimes();
-//}
-//else
-//{
-//    diff = 100 * (Math.Abs(newGMT) + Math.Abs(currentGMT));
-//    AdjustTimes();
-//}
-
-//Console.WriteLine("New Medicine Schedule:");
-
-///* Format and display medicine times */
-//DisplayTimes();
-
-//Console.WriteLine();
-
-//void DisplayTimes()
-//{
-//    foreach (int val in times)
-//    {
-//        string time = val.ToString();
-//        int len = time.Length;
-
-//        if (len >= 3)
-//        {
-//            time = time.Insert(len - 2, ":");
-//        }
-//        else if (len == 2)
-//        {
-//            time = time.Insert(0, "0:");
-//        }
-//        else
-//        {
-//            time = time.Insert(0, "0:0");
-//        }
-
-//        Console.Write($"{time} ");
-//    }
-
-//    Console.WriteLine();
-//}
-
-//void AdjustTimes()
-//{
-//    for (int i = 0; i < times.Length; i++)
-//    {
-//        times[i] = ((times[i] + diff)) % 2400;
-//    }
-//}
-
-
+﻿
 /*
 if ipAddress consists of 4 numbers
 and
@@ -160,28 +72,101 @@ else ipAddress is invalid
 //    validRange = true;
 //}
 
-Random random = new Random();
-int luck = random.Next(100);
+//Random random = new Random();
+//int luck = random.Next(100);
 
-string[] text = { "You have much to", "Today is a day to", "Whatever work you do", "This is an ideal time to" };
+//string[] text = { "You have much to", "Today is a day to", "Whatever work you do", "This is an ideal time to" };
 
-string[] good = { "look forward to.", "try new things!", "is likely to succeed.", "accomplish your dreams!" };
-string[] bad = { "fear.", "avoid major decisions.", "may have unexpected outcomes.", "re-evaluate your life." };
-string[] neutral = { "appreciate.", "enjoy time with friends.", "should align with your values.", "get in tune with nature." };
+//string[] good = { "look forward to.", "try new things!", "is likely to succeed.", "accomplish your dreams!" };
+//string[] bad = { "fear.", "avoid major decisions.", "may have unexpected outcomes.", "re-evaluate your life." };
+//string[] neutral = { "appreciate.", "enjoy time with friends.", "should align with your values.", "get in tune with nature." };
 
-tellLuck();
+//tellLuck();
 
-void tellLuck()
+//void tellLuck()
+//{
+//    Console.WriteLine("A fortune teller whispers the following words:");
+//    string[] fortune = (luck > 75 ? good : (luck < 25 ? bad : neutral));
+//    for (int i = 0; i < 4; i++)
+//    {
+//        Console.Write($"{text[i]} {fortune[i]} ");
+//    }
+//}
+
+//int[] schedule = { 800, 1200, 1600, 2000 };
+//DisplayAdjustedTimes(schedule, 6, -6);
+
+//void DisplayAdjustedTimes(int[] times, int currentGMT, int newGMT)
+//{
+//    int diff = 0;
+//    if (Math.Abs(newGMT) > 12 || Math.Abs(currentGMT) > 12)
+//    {
+//        Console.WriteLine("Invalid GMT");
+//    }
+//    else if (newGMT <= 0 && currentGMT <= 0 || newGMT >= 0 && currentGMT >= 0)
+//    {
+//        diff = 100 * (Math.Abs(newGMT) - Math.Abs(currentGMT));
+//    }
+//    else
+//    {
+//        diff = 100 * (Math.Abs(newGMT) + Math.Abs(currentGMT));
+//    }
+
+//    for (int i = 0; i < times.Length; i++)
+//    {
+//        int newTime = ((times[i] + diff)) % 2400;
+//        Console.WriteLine($"{times[i]} -> {newTime}");
+//    }
+//}
+
+string[] guestList = { "Rebecca", "Nadia", "Noor", "Jonte" };
+string[] rsvps = new string[10];
+int count = 0;
+
+RSVP("Rebecca", 1, "none", true);
+RSVP("Nadia", 2, "Nuts", true);
+RSVP("Linh", 2, "none", false);
+RSVP("Tony", 1, "Jackfruit", true);
+RSVP("Noor", 4, "none", false);
+RSVP("Jonte", 2, "Stone fruit", false);
+ShowRSVPs();
+
+void RSVP(string name, int partySize, string allergies, bool inviteOnly)
 {
-    Console.WriteLine("A fortune teller whispers the following words:");
-    string[] fortune = (luck > 75 ? good : (luck < 25 ? bad : neutral));
-    for (int i = 0; i < 4; i++)
+    if (inviteOnly)
     {
-        Console.Write($"{text[i]} {fortune[i]} ");
+        // search guestList before adding rsvp
+    }
+
+    rsvps[count] = $"Name: {name}, \tParty Size: {partySize}, \tAllergies: {allergies}";
+    count++;
+
+    if (inviteOnly)
+    {
+        bool found = false;
+        foreach (string guest in guestList)
+        {
+            if (guest.Equals(name))
+            {
+                found = true;
+                break;
+            }
+        }
+        if (!found)
+        {
+            Console.WriteLine($"Sorry, {name} is not on the guest list");
+            return;
+        }
     }
 }
 
-
-
+void ShowRSVPs()
+{
+    Console.WriteLine("\nTotal RSVPs:");
+    for (int i = 0; i < count; i++)
+    {
+        Console.WriteLine(rsvps[i]);
+    }
+}
 
 Console.ReadLine();
