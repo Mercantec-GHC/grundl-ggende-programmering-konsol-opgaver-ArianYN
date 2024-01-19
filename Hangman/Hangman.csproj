@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="HangmanImages\hang_1.png" />
+    <None Remove="HangmanImages\hang_10.png" />
+    <None Remove="HangmanImages\hang_11.png" />
+    <None Remove="HangmanImages\hang_12.png" />
+    <None Remove="HangmanImages\hang_2.png" />
+    <None Remove="HangmanImages\hang_3.png" />
+    <None Remove="HangmanImages\hang_4.png" />
+    <None Remove="HangmanImages\hang_5.png" />
+    <None Remove="HangmanImages\hang_6.png" />
+    <None Remove="HangmanImages\hang_7.png" />
+    <None Remove="HangmanImages\hang_8.png" />
+    <None Remove="HangmanImages\hang_9.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="HangmanImages\hang_1.png" />
+    <Resource Include="HangmanImages\hang_10.png" />
+    <Resource Include="HangmanImages\hang_11.png" />
+    <Resource Include="HangmanImages\hang_12.png" />
+    <Resource Include="HangmanImages\hang_2.png" />
+    <Resource Include="HangmanImages\hang_3.png" />
+    <Resource Include="HangmanImages\hang_4.png" />
+    <Resource Include="HangmanImages\hang_5.png" />
+    <Resource Include="HangmanImages\hang_6.png" />
+    <Resource Include="HangmanImages\hang_7.png" />
+    <Resource Include="HangmanImages\hang_8.png" />
+    <Resource Include="HangmanImages\hang_9.png" />
+  </ItemGroup>
+
+</Project>

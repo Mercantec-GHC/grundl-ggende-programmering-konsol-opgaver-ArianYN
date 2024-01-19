@@ -1,11 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Contoso Pets Application",
-    "\\Methods",
-    "\\Methods Guided Project",
-    "\\Part5 Minigame"
+    "\\Hangman"
   ],
-  "SelectedNode": "\\Part5 Minigame\\Program.cs",
+  "SelectedNode": "\\Hangman\\MainWindow.xaml.cs",
   "PreviewInSolutionExplorer": false
 }
