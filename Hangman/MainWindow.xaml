@@ -9,12 +9,12 @@
     <Grid Background="#FF71A06D">
         <TextBox x:Name="secretWordInput" HorizontalAlignment="Left" Margin="9,75,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="172" Height="26"/>
         <TextBlock x:Name="secretWordTitle" HorizontalAlignment="Left" Margin="9,51,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="26" Width="220" FontSize="15" FontWeight="Bold" Text="Word that has to be guessed:"/>
-        <Button x:Name="secretWordButton" Content="Confirm" HorizontalAlignment="Left" Margin="186,78,0,0" VerticalAlignment="Top" Click="secretWordButton_Click" BorderBrush="Black" Background="#FF275C20" Foreground="White" FontWeight="Bold"/>
+        <Button x:Name="secretWordButton" Content="Confirm" HorizontalAlignment="Left" Margin="186,78,0,0" VerticalAlignment="Top" Click="SecretWordButton_Click" BorderBrush="Black" Background="#FF275C20" Foreground="White" FontWeight="Bold"/>
         <TextBlock x:Name="secretWordDisplay" HorizontalAlignment="Left" Margin="360,54,0,0" TextWrapping="Wrap" Text="Secret Word" VerticalAlignment="Top" Height="42" Width="148" FontSize="25" FontWeight="Bold"/>
         <TextBlock x:Name="gameTitle" HorizontalAlignment="Left" Margin="10,4,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="34" Width="116" FontSize="25" FontWeight="Bold" Panel.ZIndex="1" Foreground="White"><Run Language="da-dk" Text="Hangman"/><LineBreak/><Run Language="da-dk"/></TextBlock>
         <TextBox x:Name="guessBox" HorizontalAlignment="Left" Margin="673,81,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="46" Height="44" FontSize="27"/>
         <TextBlock x:Name="guessTitle" HorizontalAlignment="Left" Margin="647,60,0,0" TextWrapping="Wrap" Text="Guess Letter:" VerticalAlignment="Top" Height="21" Width="98" FontSize="15" FontWeight="Bold"/>
-        <Button x:Name="guessButton" Content="Guess" HorizontalAlignment="Left" Margin="724,93,0,0" VerticalAlignment="Top" Click="guessButton_Click" Background="#FF275C20" BorderBrush="Black" Foreground="White" FontWeight="Bold"/>
+        <Button x:Name="guessButton" Content="Guess" HorizontalAlignment="Left" Margin="724,93,0,0" VerticalAlignment="Top" Click="GuessButton_Click" Background="#FF275C20" BorderBrush="Black" Foreground="White" FontWeight="Bold"/>
         <TextBlock x:Name="correctUsedLetters" HorizontalAlignment="Left" Margin="605,156,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="28" Width="90" Text="Correct Letters" FontWeight="Bold"/>
         <TextBlock x:Name="wrongUsedLetters" HorizontalAlignment="Left" Margin="699,156,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="18" Width="82" Text="Wrong Letters" FontWeight="Bold"/>
         <ListBox x:Name="correctLettersList" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="606,174,106,17"/>
@@ -24,8 +24,8 @@
         <Rectangle HorizontalAlignment="Center" Height="44" Stroke="Black" VerticalAlignment="Top" Width="850" Fill="#FF275C20"/>
         <TextBox x:Name="guessWordBox" HorizontalAlignment="Left" Margin="385,372,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="164" Height="26" FontSize="15"/>
         <TextBlock x:Name="GuessWordTitle" HorizontalAlignment="Left" Margin="385,351,0,0" TextWrapping="Wrap" Text="Guess Word:" VerticalAlignment="Top" Height="21" Width="98" FontSize="15" FontWeight="Bold"/>
-        <Button x:Name="guessWordButton" Content="Guess" HorizontalAlignment="Left" Margin="554,375,0,0" VerticalAlignment="Top" Background="#FF275C20" BorderBrush="Black" Foreground="White" FontWeight="Bold" Click="guessWordButton_Click"/>
-        <Button x:Name="restartButton" Content="Reset Game" HorizontalAlignment="Left" Margin="707,8,0,0" VerticalAlignment="Top" Height="28" Width="70" Background="#FF71A06D" BorderBrush="Black" Click="restartButton_Click"/>
+        <Button x:Name="guessWordButton" Content="Guess" HorizontalAlignment="Left" Margin="554,375,0,0" VerticalAlignment="Top" Background="#FF275C20" BorderBrush="Black" Foreground="White" FontWeight="Bold" Click="GuessWordButton_Click"/>
+        <Button x:Name="restartButton" Content="Reset Game" HorizontalAlignment="Left" Margin="707,8,0,0" VerticalAlignment="Top" Height="28" Width="70" Background="#FF71A06D" BorderBrush="Black" Click="RestartButton_Click"/>
         <Image x:Name="hangmanImage" HorizontalAlignment="Left" Height="454" Margin="-68,124,0,0" VerticalAlignment="Top" Width="524" Source="/HangmanImages/hang_1.png"/>
 
     </Grid>

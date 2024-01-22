@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Hangman"
+    "\\Hangman",
+    "\\Hangman\\HangmanImages"
   ],
   "SelectedNode": "\\Hangman\\MainWindow.xaml.cs",
   "PreviewInSolutionExplorer": false
