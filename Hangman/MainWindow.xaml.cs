@@ -51,7 +51,7 @@ namespace Hangman
         // Initiates the game once the word to guess has been typed
         private void SecretWordButton_Click(object sender, RoutedEventArgs e)
         {
-            secretWord = secretWordInput.Text.Trim().ToLower(); ;
+            secretWord = secretWordInput.Text.Trim().ToLower();
             secretWordInput.Clear();
             correctLettersList.Items.Clear();
             wrongLettersList.Items.Clear();
